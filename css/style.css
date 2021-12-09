@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sixzing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:  none;}
+
+nav,footer,header,aside{display:  block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #333333;
+	-ms-text-size-abjust: 100%;
+	-moz-text-size-abjust: 100%;
+	-webkit-text-sixe-abjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input: :-ms-clear{display:  none;}
+button{cursor: pointer;}
+button: :-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background-color: #ffffff;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: 24px;
+	margin: 0px 0px 20px 0px;
+}
+nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+nav:before{
+	align-items: center;
+	content:'';
+	display: block;
+	height: 54px;
+	width: 100%;
+	background: #181818;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+}
+ul li{
+	float: left;
+}
+ul li a{
+	color: #efefef;
+	display: block;
+	height: 54px;
+	padding: 0px 30px;
+	text-decoration: none;
+	line-height: 54px;	
+}
+ul li a:hover{
+	color: #fff;
+}
+h1{
+	font-size: 144px;
+	font-family: 'Lato', sans-serif;
+	color: #f3c932;
+	text-align: center;
+	margin: 389px 0px 40px 0px;
+}
+.main-heading{
+
+}
+.subtitles{
+	font-size: 36px;
+	margin: 0px 0px 357px 0px;
+	text-align: center;
+}
+.main-text{
+	margin: 0px 80px;
+}
+.second-heading{
+	font-size: 96px;
+	font-weight: 900;
+	margin: 0px 0px 20px 0px;
+}
+.main-haragraph{
+	font-size: 24px;
+	margin: 0px 0px 20px 0px;
+	line-height: 40px;
+}
+.i-can-II{
+	margin: 0px 0px 88px 0px;
+}
+.i-can{
+	z-index: -100;
+	text-align: center;
+	font-size: 48px;
+	margin: 20px 0px 20px 0px;
+}
+.button{
+	margin: 0 auto 20px;
+	display: block;
+	border-radius: 10px;
+	background: #f3c932;
+	width: 338px;
+	height: 48px;
+	text-align: center;
+}
+.link{
+	background: #f3c932;
+	font-size: 30px;
+	text-align: center;
+}
+.img{
+
+}
+.img-II{
+	display: inline-block;
+	margin: 0px 16px 20px 70px;
+}
+.img-IV{
+	display: inline-block;
+	margin: 0px 60px 20px 0px;
+}
+.img-VI{
+	display: inline-block;
+	margin: 0px 20px 20px 70px;
+}
+footer{
+	background: #e0e0e0;
+	height: 257px;
+	width: 100%;
+}
